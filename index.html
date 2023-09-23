@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="iframe-screen" id="iframe-screen">
+        
+        <div class="iframe-section container">
+            <div class="close-iframe" id="close-iframe">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <iframe id="myframe" src="pages/news-screen.html" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li class="profile">
+                <div class="img-box">
+                    <img src="images/Zera3a.svg" alt="logo">
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <h2>كلية الزراعة</h2>
+                    <h4 style="text-align: center; color: #999;">جامعة دمنهور</h4>
+                </div>
+            </li>
+
+
+            <li>
+                <a class="active" href="#">
+                    <i class="fas fa-table"></i>
+                    <p>الصفحة الرئيسية</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user-group"></i>
+                    <!-- <i class="fa-solid fa-arrow-pointer"></i> -->
+                    <p>عناصر التنقل</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user-group"></i>
+                    <p>الاخبار</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-pie"></i>
+                    <p>نبذة عن الكلية</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-pen"></i>
+                    <p>لماذا كليه الزراعة</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-star"></i>
+                    <p>الاحصائيات</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-cog"></i>
+                    <p>الاوائل</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-photo-film"></i>
+                    <p>البوم الصور</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <p>بيانات المستخدم</p>
+                </a>
+            </li>
+            <li class="go-to-website">
+                <a href="#">
+                    <i class="fa-solid fa-address-card"></i>
+                    <p>الموقع</p>
+                </a>
+            </li>
+            <li class="log-out">
+                <a href="#">
+                    <i class="fas fa-sign-out"></i>
+                    <p>الخروج</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+
+
+        <div class="content-container">
+            <!-- ========== HEADER =========== -->
+
+            <div class="title-info">
+                <p class="hide" style="position: absolute; right: 0;">اسم المستخدم : محمد محروس علوان</p>
+                <p class="border">لوحة التحكم</p>
+            </div>
+
+
+            <div class="view-screen visible"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="">إضافة صفحة جديدة</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">HOME</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-screen"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="pages/menu-screen.html">إضافة عنصر جديد</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">NAV MENU</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-screen"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="pages/news-screen.html">إضافة خبر جديد</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">NEWS</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-screen"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="">تعديل نبذه عن الكلية</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">ABOUT</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-screen"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="">تعديل لماذا كلية الزراعة</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">WHY CHOOSE US</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-screen"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="">تعديل الأحصائيات</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">Statistics</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-screen"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="">إضافة اوائل</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">TESTEMONIAL</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-screen"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="pages/gallery-screen.html">إضافة البوم الصور</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">GALLERY</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-screen"> <!--NEWS-->
+                <div class="views-content">
+                    <a href="#" class="button-content" data-screen-name="pages/users-screen.html">إضافة مستخدم جديد</a>
+
+                    <div class="grid-content">
+                        <h1 style="color: black;">USERS</h1>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+            
+
+
+
+        </div>
+
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>

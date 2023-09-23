@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/inner-screens-css.css" />
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+
+    <div class="container">
+      <form action="#">
+        <div class="news">
+          <h1>
+            الأخبار
+          </h1>
+          <div class="content">
+            
+              <div class="main-user-info">
+                <div class="user-input-box">
+                  <label for="header1">عنوان الخبر (عربي)</label>
+                  <input
+                    type="text"
+                    id="header1"
+                    name="عنوان الخبر (عربي)"
+                    placeholder="أدخل عنوان الخبر (عربي)"
+                    required
+                  />
+                </div>
+                <div class="user-input-box en-dir">
+                  <label for="header2">عنوان الخبر (انجليزي)</label>
+                  <input
+                    type="text"
+                    id="header2"
+                    name="عنوان الخبر (انجليزي)"
+                    placeholder="أدخل عنوان الخبر (انجليزي)"
+                    required
+                  />
+                </div>
+                <div class="user-input-box">
+                  <label for="details1">تفاصيل الخبر (عربي)</label>
+                  <input
+                    type="text"
+                    id="details1"
+                    name="تفاصيل الخبر (عربي)"
+                    placeholder="أدخل تفاصيل الخبر (عربي)"
+                    required
+                  />
+                </div>
+                <div class="user-input-box en-dir">
+                  <label for="details2">تفاصيل الخبر (انجليزي)</label>
+                  <input
+                    type="text"
+                    id="details2"
+                    name="تفاصيل الخبر (انجليزي)"
+                    placeholder="أدخل تفاصيل الخبر (انجليزي)"
+                    required
+                  />
+                </div>
+                <div class="user-input-box">
+                  <label for="data">تاريخ الخبر</label>
+                  <input
+                  
+                    type="date"
+                    id="data"
+                    name="تاريخ الخبر"
+                    placeholder="أدخل تاريخ الخبر"
+                    data-date-format="DD MMMM YYYY"
+                    required
+                  />
+                </div>
+                <div class="user-input-box">
+                  <label for="img">صورة الخبر</label>
+                  <input
+                  
+                    type="file"
+                    id="img"
+                    name="صورة الخبر"
+                    placeholder="أدخل صورة الخبر"
+                    accept="image/png, image/jpeg, image/jpg"
+                    required
+                  />
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+      <!-- Create the editor container -->
+
+      <h1 class="content-lang">المحتوي باللغة العربية</h1>
+      <div id="editor-rtl" class="editor" ></div>
+      
+      <!-- <a href="#" onclick="getQuillHtml_ltr()">التحويل الي الأنجليزية</a> -->
+      <!-- <div id="google_translate_element"></div> -->
+      
+      
+      
+      <h1 class="content-lang">المحتوي باللغة الأنجليزية</h1>
+      <div id="editor-ltr" class="editor" ></div>
+      
+      <div class="btn-div">
+        <button class="btn-add" type="submit">إضافة</button>
+      </div>
+      
+      
+      
+      
+      
+            
+          </div>
+      </form>
+      
+
+
+
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
